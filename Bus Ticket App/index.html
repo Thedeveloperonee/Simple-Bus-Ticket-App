@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Css/Style.css">
-    <script type="text/javascript" src="App/App.js"></script>
 </head>
 <body>
 
@@ -18,17 +17,76 @@
           <!--Sign in container-->
          <div class="signincontainer">
             <div class="signininputcontainer">
-                <img src="" alt="">
+                <img>
                 <input id="Personalnumber"type="text" placeholder="Personel numaranızı girin">
                 <input id="Personelpassword"type="password" placeholder="Şifrenizi ngirin">
-                <button>Giriş yap</button>
-               
+                <button class="Signinbuttonn">Giriş yap</button>
+                 <h2>Hoş geldiniz personel giriş sayfası</h2>
             </div>
          </div>
          <!-------------------->
 
 
+        <div class="Homepage">
+           
+         
+            <div class="homepagedatacontainer">
+       
+             
+                      
+               <div class="homepagedatacontentcontainer">
+                <h2 class="Homepagedatactitle">Bilet kesim sistemi</h2>
+                   <img>
+                    <span class="Müsteriadi">Müşteri adı Soyadı: <input type="text" class="Musteriadiinput"></span>
+            
+                    <span>Telefon numarası: <input type="text" class="Telefonnumarasiinput"></span>
 
+                    <span>Gideceği şehir: <input type="text" class="Gidecegisehirinput"></span>
+
+                    <span>Cinsiyet <input type="text" name="" class="Cinsiyetinput"></span>
+
+                    <span>Tarih: <input type="text" class="Tarihinput"></span>
+
+                    <span>Biletin kesim saati: <input type="text" class="Biletkesimtarihiinput"></span>
+
+                    <span>Koltuk no: <input type="text" class="Koltuknoinput"></span>
+
+                    <span>Bilet ücreti: <input type="text" class="Biletucretiinput"></span>
+
+
+                    <div class="datainputbuttonwrapper">
+                        <button class="Printticketbtn">Bileti yazdır</button>
+                        <button class="Deletedatabtn">Tümünü sil</button>
+                    </div>
+                    
+               </div>
+
+            </div>
+
+
+         </div>
+
+<div class="ticketprintpage">
+            <img src="./Img/Ticket.png" alt="">
+          <div class="ticketprintdata">
+            
+            <span class="Yolduadi">Bilmem</span>
+            <span class="Yolcusoyadi">Bilmem</span>
+            <span class="Telefonnumarasi">Bilmem</span>
+            <span class="Gidecegisehir">Bilmem</span>
+            <span class="Cinsiyet">Bilmem</span>
+            <span class="Tarih">Bilmem</span>
+            <span class="Koltukno">Bilmem</span>
+            <span class="Biletkesimsaati">Bilmem</span>
+
+          </div>
+          
+         </div>
+
+
+
+         
+        </div>
 
          
   
@@ -37,10 +95,11 @@
 
 
 
- </div>
 
 
 
+
+    <script type="text/javascript" src="App/App.js"></script>
 
 </body>
 </html>
